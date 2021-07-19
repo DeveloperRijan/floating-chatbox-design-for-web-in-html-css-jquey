@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Floating Chatbox For Web</title>
+  <link rel="stylesheet" href="./asset/css/all.min.css">
+  <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+
+<body>
+  <h3 style="text-align: center;">Floating Chatbox Design in Pure HTML/CSS & jQuery</h3>
+	
+	<section class="chat--group">
+    <div class="container">
+      <div class="floating-chat">
+        <i class="fa fa-comments" aria-hidden="true"></i>
+        <div class="chat">
+          <div class="header">
+            <span class="title">
+              what's on your mind?
+            </span>
+            <button>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+
+          </div>
+          <ul class="messages">
+            <li class="other">NEED ANY HELP? WRITE NOW...</li>
+            <li class="self">I need urgent support on my webhosting?</li>
+          </ul>
+          <div class="footer" style="max-height: 155px">
+            <form id="guestContact_form" action="" method="POST" 
+            style="width: 100%;" class="text-box">
+                <input type="text" name="name" placeholder="Enter your name..." class="form-control">
+                <input type="email" name="email" placeholder="Enter your email..." class="form-control">
+                <textarea class="form-control" required="1" name="msg_txt" placeholder="Your Message..."></textarea>
+                <button id="sendMessage" type="submit">send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- demo confiqure  for laravel and bootstrap end here-->
+
+
+  <!--======================= All Javascript file ========================-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="./asset/js/script.js"></script>
+
+
+</body>
+
+</html>
